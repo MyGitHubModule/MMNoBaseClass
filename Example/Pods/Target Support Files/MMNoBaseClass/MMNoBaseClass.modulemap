@@ -1,0 +1,6 @@
+framework module MMNoBaseClass {
+  umbrella header "MMNoBaseClass-umbrella.h"
+
+  export *
+  module * { export * }
+}

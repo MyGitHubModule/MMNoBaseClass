@@ -1,0 +1,6 @@
+framework module Pods_MMNoBaseClass_Example {
+  umbrella header "Pods-MMNoBaseClass_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

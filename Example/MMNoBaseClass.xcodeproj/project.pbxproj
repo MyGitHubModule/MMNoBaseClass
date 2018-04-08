@@ -352,10 +352,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MMNoBaseClass_Example/Pods-MMNoBaseClass_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework",
 				"${BUILT_PRODUCTS_DIR}/MMNoBaseClass/MMNoBaseClass.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Aspects.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMNoBaseClass.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
