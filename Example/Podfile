@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MMNoBaseClass_Example' do
+  pod 'MMNoBaseClass', :path => '../'
+
+  target 'MMNoBaseClass_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
