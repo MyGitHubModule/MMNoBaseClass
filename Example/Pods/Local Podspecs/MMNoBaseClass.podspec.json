@@ -1,6 +1,6 @@
 {
   "name": "MMNoBaseClass",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "MMNoBaseClass is based on AOP to replace inherit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/MyGitHubModule/MMNoBaseClass",
@@ -13,15 +13,20 @@
   },
   "source": {
     "git": "https://github.com/MyGitHubModule/MMNoBaseClass.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MMNoBaseClass/Classes/**/*",
   "dependencies": {
     "Aspects": [
       "~> 1.4.1"
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "ViewController",
+      "source_files": "MMNoBaseClass/Classes/ViewController/*"
+    }
+  ]
 }
