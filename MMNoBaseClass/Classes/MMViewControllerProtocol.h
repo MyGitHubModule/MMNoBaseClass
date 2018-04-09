@@ -20,13 +20,4 @@
 // 绑定ViewModel
 - (void)bindViewModel;
 
-// 配置导航栏
-- (void)configNavgationBar;
-
-// 添加子视图
-- (void)addPageSubViews;
-
-// 添加布局
-- (void)addLayout;
-
 @end

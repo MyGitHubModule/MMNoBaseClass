@@ -54,9 +54,6 @@
         // 执行协议的方法
         [controller initViewModel];
         [controller bindViewModel];
-        [controller configNavgationBar];
-        [controller addPageSubViews];
-        [controller addLayout];
     }
 }
 @end
